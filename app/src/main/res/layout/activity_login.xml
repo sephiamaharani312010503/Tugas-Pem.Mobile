@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="AUTOLIV"
+        android:textStyle="bold"
+        android:textColor="@color/blacksemu"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <View
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:background="@color/teal_200"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_employe1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:elevation="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="@color/blacksemu"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="@color/blacksemu"
+            android:layout_marginLeft="21dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:textColor="@color/blacksemu"
+            android:inputType="text"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_edittext"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blacksemu"
+            android:layout_marginLeft="21dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/edt_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/blacksemu"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_edittext"/>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="LOGIN"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_button"
+                android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

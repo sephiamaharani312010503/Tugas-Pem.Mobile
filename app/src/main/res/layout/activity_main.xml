@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@drawable/bg_login"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_login"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blacksemu"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppinsbold"
+            android:text="SUGGESTION SYSTEM"/>
+
+    </LinearLayout>
+
+    <!-- edt no judul   -->
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:text="No Judul"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/edt_no_judul"
+            android:layout_width="230dp"
+            android:layout_height="35dp"
+            android:textSize="15sp"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_edittext"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <!-- edt  judul   -->
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:text="Judul"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/edt_judul"
+            android:layout_width="230dp"
+            android:layout_height="35dp"
+            android:textSize="15sp"
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/bg_edittext"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginLeft="10dp"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+    <!-- edt  nama   -->
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:text="Nama"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_width="230dp"
+            android:layout_height="35dp"
+            android:textSize="15sp"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_edittext"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <!-- edt  NIK   -->
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:text="NIK"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/edt_nik"
+            android:layout_width="230dp"
+            android:layout_height="35dp"
+            android:textSize="15sp"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_edittext"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <!-- edt  sebelum   -->
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:text="Sebelum"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/edt_sebelum"
+            android:layout_width="230dp"
+            android:layout_height="35dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_edittext"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <!-- edt  saran   -->
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:text="Saran"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/edt_saran"
+            android:layout_width="230dp"
+            android:layout_height="35dp"
+            android:textSize="15sp"
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/bg_edittext"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_button"
+            android:elevation="10dp"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="center"
+            android:text="Simpan"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btn_batal"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:text="Batal"
+            android:onClick="onClickButton"
+            android:gravity="center"
+            android:elevation="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_button"
+            android:fontFamily="@font/poppinsbold"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
